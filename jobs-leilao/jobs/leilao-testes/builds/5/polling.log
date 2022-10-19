@@ -1,0 +1,12 @@
+Started on 18 Oct 2022, 09:22:00
+Using strategy: Default
+[poll] Last Built Revision: Revision 56beab8d5544b28c9827b967061c730922903d4e (refs/remotes/origin/master)
+The recommended git tool is: NONE
+No credentials specified
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.37.1.windows.1'
+ > git.exe ls-remote -h -- https://github.com/moisesest3vao/treinamento-jenkins.git # timeout=10
+Found 1 remote heads on https://github.com/moisesest3vao/treinamento-jenkins.git
+[poll] Latest remote head revision on refs/heads/master is: 2f9d41d0c9ccbd7129984df39d37e8cab80c1c3a
+Done. Took 0.48 sec
+Changes found

@@ -1,0 +1,101 @@
+Started by user [8mha:////4BOzWrlVzYGEYR+Fi/hz10jbcdDHb2qFWOHmFPNl3fGQAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYe/dLi1CL93PzM4tRiAK55uTzBAAAA[0mMoisés Estevão
+Running as SYSTEM
+Building in workspace C:\Users\moise\.jenkins\workspace\jobs-leilao\leilao-deploy
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/moisesest3vao/treinamento-jenkins.git
+ > git.exe init C:\Users\moise\.jenkins\workspace\jobs-leilao\leilao-deploy # timeout=10
+Fetching upstream changes from https://github.com/moisesest3vao/treinamento-jenkins.git
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.37.1.windows.1'
+ > git.exe fetch --tags --force --progress -- https://github.com/moisesest3vao/treinamento-jenkins.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe config remote.origin.url https://github.com/moisesest3vao/treinamento-jenkins.git # timeout=10
+ > git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+Checking out Revision 2f9d41d0c9ccbd7129984df39d37e8cab80c1c3a (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 2f9d41d0c9ccbd7129984df39d37e8cab80c1c3a # timeout=10
+Commit message: "da"
+First time build. Skipping changelog.
+[leilao-deploy] $ cmd.exe /C "mvn clean package && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< br.com.alura:leilao >-------------------------
+[INFO] Building leilao 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4A0BJJy2EhboppF1EGwOg29EAxuJoOqScxcGMbvKmEflAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ leilao ---
+[INFO] 
+[8mha:////4A0BJJy2EhboppF1EGwOg29EAxuJoOqScxcGMbvKmEflAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ leilao ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 9 resources
+[INFO] 
+[8mha:////4A0BJJy2EhboppF1EGwOg29EAxuJoOqScxcGMbvKmEflAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ leilao ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 24 source files to C:\Users\moise\.jenkins\workspace\jobs-leilao\leilao-deploy\target\classes
+[INFO] 
+[8mha:////4A0BJJy2EhboppF1EGwOg29EAxuJoOqScxcGMbvKmEflAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ leilao ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\moise\.jenkins\workspace\jobs-leilao\leilao-deploy\src\test\resources
+[INFO] 
+[8mha:////4A0BJJy2EhboppF1EGwOg29EAxuJoOqScxcGMbvKmEflAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ leilao ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to C:\Users\moise\.jenkins\workspace\jobs-leilao\leilao-deploy\target\test-classes
+[INFO] 
+[8mha:////4A0BJJy2EhboppF1EGwOg29EAxuJoOqScxcGMbvKmEflAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ leilao ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running br.com.alura.leilao.service.FinalizarLeilaoServiceTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.609 s - in br.com.alura.leilao.service.FinalizarLeilaoServiceTest
+[INFO] Running br.com.alura.leilao.service.GeradorDePagamentoTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 s - in br.com.alura.leilao.service.GeradorDePagamentoTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[8mha:////4A0BJJy2EhboppF1EGwOg29EAxuJoOqScxcGMbvKmEflAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-jar-plugin:3.2.0:jar (default-jar) @ leilao ---
+[INFO] Building jar: C:\Users\moise\.jenkins\workspace\jobs-leilao\leilao-deploy\target\leilao-0.0.1-SNAPSHOT.jar
+[INFO] 
+[8mha:////4A0BJJy2EhboppF1EGwOg29EAxuJoOqScxcGMbvKmEflAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- spring-boot-maven-plugin:2.3.4.RELEASE:repackage (repackage) @ leilao ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  9.003 s
+[INFO] Finished at: 2022-10-18T23:23:29-03:00
+[INFO] ------------------------------------------------------------------------
+[leilao-deploy] $ sh -xe C:\Users\moise\AppData\Local\Temp\jenkins15386729596036647494.sh
+The system cannot find the file specified
+FATAL: command execution failed
+java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.base/java.lang.ProcessImpl.create(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:487)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:154)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+Caused: java.io.IOException: Cannot run program "sh" (in directory "C:\Users\moise\.jenkins\workspace\jobs-leilao\leilao-deploy"): CreateProcess error=2, The system cannot find the file specified
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at hudson.Proc$LocalProc.<init>(Proc.java:254)
+	at hudson.Proc$LocalProc.<init>(Proc.java:223)
+	at hudson.Launcher$LocalLauncher.launch(Launcher.java:997)
+	at hudson.Launcher$ProcStarter.start(Launcher.java:509)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:144)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:92)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:816)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:164)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:524)
+	at hudson.model.Run.execute(Run.java:1899)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:107)
+	at hudson.model.Executor.run(Executor.java:449)
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

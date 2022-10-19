@@ -1,0 +1,20 @@
+Started by user [8mha:////4BOzWrlVzYGEYR+Fi/hz10jbcdDHb2qFWOHmFPNl3fGQAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYe/dLi1CL93PzM4tRiAK55uTzBAAAA[0mMoisés Estevão
+Running as SYSTEM
+Building in workspace C:\Users\moise\.jenkins\workspace\jobs-leilao\leilao-deploy
+[leilao-deploy] $ cmd.exe /C "mvn clean package && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.070 s
+[INFO] Finished at: 2022-10-18T23:22:23-03:00
+[INFO] ------------------------------------------------------------------------
+[8mha:////4MnplWqnWOjmqdiC2DH6qusGv5LxgIC/DcS2dhg8Av55AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] The goal you specified requires a project to execute but there is no POM in this directory (C:\Users\moise\.jenkins\workspace\jobs-leilao\leilao-deploy). Please verify you invoked Maven from the correct directory. -> [Help 1]
+[8mha:////4MnplWqnWOjmqdiC2DH6qusGv5LxgIC/DcS2dhg8Av55AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 
+[8mha:////4MnplWqnWOjmqdiC2DH6qusGv5LxgIC/DcS2dhg8Av55AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[8mha:////4MnplWqnWOjmqdiC2DH6qusGv5LxgIC/DcS2dhg8Av55AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[8mha:////4MnplWqnWOjmqdiC2DH6qusGv5LxgIC/DcS2dhg8Av55AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 
+[8mha:////4MnplWqnWOjmqdiC2DH6qusGv5LxgIC/DcS2dhg8Av55AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[8mha:////4MnplWqnWOjmqdiC2DH6qusGv5LxgIC/DcS2dhg8Av55AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MissingProjectException
+Build step 'Invoke top-level Maven targets' marked build as failure
+Finished: FAILURE

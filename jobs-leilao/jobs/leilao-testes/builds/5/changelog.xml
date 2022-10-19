@@ -1,0 +1,10 @@
+commit 2f9d41d0c9ccbd7129984df39d37e8cab80c1c3a
+tree 258034fef439140e9945afd15df22dd16e930e72
+parent 56beab8d5544b28c9827b967061c730922903d4e
+author moises <moisesestevao2004@hotmail.com> 2022-10-18 09:21:11 -0300
+committer moises <moisesestevao2004@hotmail.com> 2022-10-18 09:21:11 -0300
+
+    da
+
+
+:100644 100644 cfc6a9ef5f1301bd85aa68cc3e25b5a547d5f544 dfc1fc829247129a9bd34c299da3274bbc3c18a9 M	src/test/java/br/com/alura/leilao/service/FinalizarLeilaoServiceTest.java

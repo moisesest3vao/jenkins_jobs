@@ -1,0 +1,8 @@
+Started on 18 Oct 2022, 23:58:00
+Using strategy: Default
+[poll] Last Built Revision: Revision 2f9d41d0c9ccbd7129984df39d37e8cab80c1c3a (refs/remotes/origin/master)
+The recommended git tool is: NONE
+No credentials specified
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.37.1.windows.1'
+ > git.exe ls-remote -h -- https://github.com/moisesest3vao/treinamento-jenkins.git # timeout=10

@@ -1,0 +1,19 @@
+Started by user [8mha:////4BOzWrlVzYGEYR+Fi/hz10jbcdDHb2qFWOHmFPNl3fGQAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYe/dLi1CL93PzM4tRiAK55uTzBAAAA[0mMoisés Estevão
+Running as SYSTEM
+Building in workspace C:\Users\moise\.jenkins\workspace\leilao-testes
+The recommended git tool is: NONE
+No credentials specified
+ > git.exe rev-parse --resolve-git-dir C:\Users\moise\.jenkins\workspace\leilao-testes\.git # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/moisesest3vao/treinamento-jenkins.git # timeout=10
+Fetching upstream changes from https://github.com/moisesest3vao/treinamento-jenkins.git
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.37.1.windows.1'
+ > git.exe fetch --tags --force --progress -- https://github.com/moisesest3vao/treinamento-jenkins.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+Checking out Revision 56beab8d5544b28c9827b967061c730922903d4e (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 56beab8d5544b28c9827b967061c730922903d4e # timeout=10
+Commit message: "codigos da aula 4"
+First time build. Skipping changelog.
+Finished: SUCCESS

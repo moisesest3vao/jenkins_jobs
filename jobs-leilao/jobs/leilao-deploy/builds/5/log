@@ -1,0 +1,80 @@
+Started by user [8mha:////4BOzWrlVzYGEYR+Fi/hz10jbcdDHb2qFWOHmFPNl3fGQAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYe/dLi1CL93PzM4tRiAK55uTzBAAAA[0mMoisés Estevão
+Running as SYSTEM
+Building in workspace C:\Users\moise\.jenkins\workspace\jobs-leilao\leilao-deploy
+The recommended git tool is: NONE
+No credentials specified
+ > git.exe rev-parse --resolve-git-dir C:\Users\moise\.jenkins\workspace\jobs-leilao\leilao-deploy\.git # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/moisesest3vao/treinamento-jenkins.git # timeout=10
+Fetching upstream changes from https://github.com/moisesest3vao/treinamento-jenkins.git
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.37.1.windows.1'
+ > git.exe fetch --tags --force --progress -- https://github.com/moisesest3vao/treinamento-jenkins.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+Checking out Revision 2f9d41d0c9ccbd7129984df39d37e8cab80c1c3a (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 2f9d41d0c9ccbd7129984df39d37e8cab80c1c3a # timeout=10
+Commit message: "da"
+ > git.exe rev-list --no-walk 2f9d41d0c9ccbd7129984df39d37e8cab80c1c3a # timeout=10
+[leilao-deploy] $ cmd.exe /C "mvn clean package && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< br.com.alura:leilao >-------------------------
+[INFO] Building leilao 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4A0BJJy2EhboppF1EGwOg29EAxuJoOqScxcGMbvKmEflAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ leilao ---
+[INFO] Deleting C:\Users\moise\.jenkins\workspace\jobs-leilao\leilao-deploy\target
+[INFO] 
+[8mha:////4A0BJJy2EhboppF1EGwOg29EAxuJoOqScxcGMbvKmEflAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ leilao ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 9 resources
+[INFO] 
+[8mha:////4A0BJJy2EhboppF1EGwOg29EAxuJoOqScxcGMbvKmEflAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ leilao ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 24 source files to C:\Users\moise\.jenkins\workspace\jobs-leilao\leilao-deploy\target\classes
+[INFO] 
+[8mha:////4A0BJJy2EhboppF1EGwOg29EAxuJoOqScxcGMbvKmEflAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ leilao ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\moise\.jenkins\workspace\jobs-leilao\leilao-deploy\src\test\resources
+[INFO] 
+[8mha:////4A0BJJy2EhboppF1EGwOg29EAxuJoOqScxcGMbvKmEflAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ leilao ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to C:\Users\moise\.jenkins\workspace\jobs-leilao\leilao-deploy\target\test-classes
+[INFO] 
+[8mha:////4A0BJJy2EhboppF1EGwOg29EAxuJoOqScxcGMbvKmEflAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ leilao ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running br.com.alura.leilao.service.FinalizarLeilaoServiceTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.519 s - in br.com.alura.leilao.service.FinalizarLeilaoServiceTest
+[INFO] Running br.com.alura.leilao.service.GeradorDePagamentoTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in br.com.alura.leilao.service.GeradorDePagamentoTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[8mha:////4A0BJJy2EhboppF1EGwOg29EAxuJoOqScxcGMbvKmEflAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-jar-plugin:3.2.0:jar (default-jar) @ leilao ---
+[INFO] Building jar: C:\Users\moise\.jenkins\workspace\jobs-leilao\leilao-deploy\target\leilao-0.0.1-SNAPSHOT.jar
+[INFO] 
+[8mha:////4A0BJJy2EhboppF1EGwOg29EAxuJoOqScxcGMbvKmEflAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- spring-boot-maven-plugin:2.3.4.RELEASE:repackage (repackage) @ leilao ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.061 s
+[INFO] Finished at: 2022-10-18T23:32:12-03:00
+[INFO] ------------------------------------------------------------------------
+[leilao-deploy] $ cmd /c call C:\Users\moise\AppData\Local\Temp\jenkins4886534840332732052.bat
+
+C:\Users\moise\.jenkins\workspace\jobs-leilao\leilao-deploy>BUILD_ID="hack" start /B java -Dspring.profiles.active=prod -jar target/leilao-0.0.1-SNAPSHOT.jar 
+'BUILD_ID' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\moise\.jenkins\workspace\jobs-leilao\leilao-deploy>exit 9009 
+Build step 'Execute Windows batch command' marked build as failure
+Finished: FAILURE
